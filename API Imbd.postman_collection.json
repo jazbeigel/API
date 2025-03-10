@@ -1,0 +1,160 @@
+{
+	"info": {
+		"_postman_id": "161e6405-4291-441f-b331-d9e26bf1d47a",
+		"name": "Api Act 1",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "42984920"
+	},
+	"item": [
+		{
+			"name": "Cars",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://www.omdbapi.com/?apikey=fee9f9ae&s=cars",
+					"protocol": "http",
+					"host": [
+						"www",
+						"omdbapi",
+						"com"
+					],
+					"path": [
+						""
+					],
+					"query": [
+						{
+							"key": "apikey",
+							"value": "fee9f9ae"
+						},
+						{
+							"key": "s",
+							"value": "cars"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Hunger",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://www.omdbapi.com/?apikey=fee9f9ae&s=hunger",
+					"protocol": "http",
+					"host": [
+						"www",
+						"omdbapi",
+						"com"
+					],
+					"path": [
+						""
+					],
+					"query": [
+						{
+							"key": "apikey",
+							"value": "fee9f9ae"
+						},
+						{
+							"key": "s",
+							"value": "hunger"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Monsters, Inc.",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://www.omdbapi.com/?apikey=fee9f9ae&t=Monsters, Inc.",
+					"protocol": "http",
+					"host": [
+						"www",
+						"omdbapi",
+						"com"
+					],
+					"path": [
+						""
+					],
+					"query": [
+						{
+							"key": "apikey",
+							"value": "fee9f9ae"
+						},
+						{
+							"key": "t",
+							"value": "Monsters, Inc."
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Rocky IV",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://www.omdbapi.com/?apikey=fee9f9ae&t=Rocky IV",
+					"protocol": "http",
+					"host": [
+						"www",
+						"omdbapi",
+						"com"
+					],
+					"path": [
+						""
+					],
+					"query": [
+						{
+							"key": "apikey",
+							"value": "fee9f9ae"
+						},
+						{
+							"key": "t",
+							"value": "Rocky IV"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Por ID",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://www.omdbapi.com/?apikey=fee9f9ae&i=tt0067992",
+					"protocol": "http",
+					"host": [
+						"www",
+						"omdbapi",
+						"com"
+					],
+					"path": [
+						""
+					],
+					"query": [
+						{
+							"key": "apikey",
+							"value": "fee9f9ae"
+						},
+						{
+							"key": "i",
+							"value": "tt0067992"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
